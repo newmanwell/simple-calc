@@ -5,7 +5,7 @@ const calculator = () => {
   // Create const to store user operator (+ - * / %) via prompt
   const operator = prompt(`Enter + to add, - to subtract, * to multiply, / to divide, or % to calculate remainder`);
   // Create const to store second number via prompt and convert to number
-  const secondNumber =Number(prompt(`Enter second number`));
+  const secondNumber = Number(prompt(`Enter second number`));
 
   // Create conditional that returns the calculation based on the user's desired operation
   // Alert the results of the calculation
